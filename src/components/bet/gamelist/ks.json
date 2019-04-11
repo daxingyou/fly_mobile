@@ -1,0 +1,210 @@
+{
+    "code": 0,
+    "data": {
+        "awardTime": "08:40:00",
+        "midleTime": null,
+        "optionGameList": [],
+        "shutTime": "22:00:00",
+        "standGameList": [
+            {
+                "gameId": "4001",
+                "gameName": "和值",
+                "gameSons": [
+                    {
+                        "baseGameId": "4001",
+                        "leftName": "和值",
+                        "rightName": "3",
+                        "subGameId": "400101"
+                    },
+                    {
+                        "baseGameId": "4001",
+                        "leftName": "和值",
+                        "rightName": "4",
+                        "subGameId": "400102"
+                    },
+                    {
+                        "baseGameId": "4001",
+                        "leftName": "和值",
+                        "rightName": "5",
+                        "subGameId": "400103"
+                    },
+                    {
+                        "baseGameId": "4001",
+                        "leftName": "和值",
+                        "rightName": "6",
+                        "subGameId": "400104"
+                    },
+                    {
+                        "baseGameId": "4001",
+                        "leftName": "和值",
+                        "rightName": "7",
+                        "subGameId": "400105"
+                    },
+                    {
+                        "baseGameId": "4001",
+                        "leftName": "和值",
+                        "rightName": "8",
+                        "subGameId": "400106"
+                    },
+                    {
+                        "baseGameId": "4001",
+                        "leftName": "和值",
+                        "rightName": "9",
+                        "subGameId": "400107"
+                    },
+                    {
+                        "baseGameId": "4001",
+                        "leftName": "和值",
+                        "rightName": "10",
+                        "subGameId": "400108"
+                    },
+                    {
+                        "baseGameId": "4001",
+                        "leftName": "和值",
+                        "rightName": "11",
+                        "subGameId": "400109"
+                    },
+                    {
+                        "baseGameId": "4001",
+                        "leftName": "和值",
+                        "rightName": "12",
+                        "subGameId": "400110"
+                    },
+                    {
+                        "baseGameId": "4001",
+                        "leftName": "和值",
+                        "rightName": "13",
+                        "subGameId": "400111"
+                    },
+                    {
+                        "baseGameId": "4001",
+                        "leftName": "和值",
+                        "rightName": "14",
+                        "subGameId": "400112"
+                    },
+                    {
+                        "baseGameId": "4001",
+                        "leftName": "和值",
+                        "rightName": "15",
+                        "subGameId": "400113"
+                    },
+                    {
+                        "baseGameId": "4001",
+                        "leftName": "和值",
+                        "rightName": "16",
+                        "subGameId": "400114"
+                    },
+                    {
+                        "baseGameId": "4001",
+                        "leftName": "和值",
+                        "rightName": "17",
+                        "subGameId": "400115"
+                    },
+                    {
+                        "baseGameId": "4001",
+                        "leftName": "和值",
+                        "rightName": "18",
+                        "subGameId": "400116"
+                    }
+                ]
+            },
+            {
+                "gameId": "4002",
+                "gameName": "三同号通选",
+                "gameSons": [
+                    {
+                        "baseGameId": "4002",
+                        "leftName": "三同号",
+                        "rightName": "通选",
+                        "subGameId": "400201"
+                    }
+                ]
+            },
+            {
+                "gameId": "4003",
+                "gameName": "三同号单选",
+                "gameSons": [
+                    {
+                        "baseGameId": "4003",
+                        "leftName": "三同号",
+                        "rightName": "单选",
+                        "subGameId": "400301"
+                    }
+                ]
+            },
+            {
+                "gameId": "4004",
+                "gameName": "三不同号",
+                "gameSons": [
+                    {
+                        "baseGameId": "4004",
+                        "leftName": "三不同号",
+                        "rightName": "标准",
+                        "subGameId": "400401"
+                    },
+                    {
+                        "baseGameId": "4004",
+                        "leftName": "三不同号",
+                        "rightName": "胆拖",
+                        "subGameId": "400402"
+                    }
+                ]
+            },
+            {
+                "gameId": "4005",
+                "gameName": "三连号通选",
+                "gameSons": [
+                    {
+                        "baseGameId": "4005",
+                        "leftName": "三连号",
+                        "rightName": "通选",
+                        "subGameId": "400501"
+                    }
+                ]
+            },
+            {
+                "gameId": "4006",
+                "gameName": "二同号复选",
+                "gameSons": [
+                    {
+                        "baseGameId": "4006",
+                        "leftName": "二同号",
+                        "rightName": "复选",
+                        "subGameId": "400601"
+                    }
+                ]
+            },
+            {
+                "gameId": "4007",
+                "gameName": "二同号单选",
+                "gameSons": [
+                    {
+                        "baseGameId": "4007",
+                        "leftName": "二同号",
+                        "rightName": "单选",
+                        "subGameId": "400701"
+                    }
+                ]
+            },
+            {
+                "gameId": "4008",
+                "gameName": "二不同号",
+                "gameSons": [
+                    {
+                        "baseGameId": "4008",
+                        "leftName": "二不同号",
+                        "rightName": "标准",
+                        "subGameId": "400801"
+                    },
+                    {
+                        "baseGameId": "4008",
+                        "leftName": "二不同号",
+                        "rightName": "胆拖",
+                        "subGameId": "400802"
+                    }
+                ]
+            }
+        ]
+    },
+    "msg": "OK"
+}

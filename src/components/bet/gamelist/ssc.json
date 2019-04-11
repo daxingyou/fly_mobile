@@ -1,0 +1,811 @@
+{
+    "code": 0,
+    "data": {
+        "awardTime": "08:45:00",
+        "midleTime": null,
+        "optionGameList": [
+            {
+                "gameId": "3010",
+                "gameName": "任选二",
+                "gameSons": [
+                    {
+                        "baseGameId": "3010",
+                        "leftName": "任二直选",
+                        "rightName": "复式",
+                        "subGameId": "301001"
+                    },
+                    {
+                        "baseGameId": "3010",
+                        "leftName": "任二组选",
+                        "rightName": "和值",
+                        "subGameId": "301006"
+                    },
+                    {
+                        "baseGameId": "3010",
+                        "leftName": "任二直选",
+                        "rightName": "和值",
+                        "subGameId": "301003"
+                    },
+                    {
+                        "baseGameId": "3010",
+                        "leftName": "任二直选",
+                        "rightName": "单式",
+                        "subGameId": "301002"
+                    },
+                    {
+                        "baseGameId": "3010",
+                        "leftName": "任二组选",
+                        "rightName": "单式",
+                        "subGameId": "301005"
+                    },
+                    {
+                        "baseGameId": "3010",
+                        "leftName": "任二组选",
+                        "rightName": "复式",
+                        "subGameId": "301004"
+                    }
+                ]
+            },
+            {
+                "gameId": "3011",
+                "gameName": "任选三",
+                "gameSons": [
+                    {
+                        "baseGameId": "3011",
+                        "leftName": "任三直选",
+                        "rightName": "复式",
+                        "subGameId": "301101"
+                    },
+                    {
+                        "baseGameId": "3011",
+                        "leftName": "任三组选",
+                        "rightName": "混合组选",
+                        "subGameId": "301108"
+                    },
+                    {
+                        "baseGameId": "3011",
+                        "leftName": "任三组选",
+                        "rightName": "组三单式",
+                        "subGameId": "301105"
+                    },
+                    {
+                        "baseGameId": "3011",
+                        "leftName": "任三组选",
+                        "rightName": "组六单式",
+                        "subGameId": "301107"
+                    },
+                    {
+                        "baseGameId": "3011",
+                        "leftName": "任三组选",
+                        "rightName": "组选和值",
+                        "subGameId": "301109"
+                    },
+                    {
+                        "baseGameId": "3011",
+                        "leftName": "任三直选",
+                        "rightName": "和值",
+                        "subGameId": "301103"
+                    },
+                    {
+                        "baseGameId": "3011",
+                        "leftName": "任三直选",
+                        "rightName": "单式",
+                        "subGameId": "301102"
+                    },
+                    {
+                        "baseGameId": "3011",
+                        "leftName": "任三组选",
+                        "rightName": "组三复式",
+                        "subGameId": "301104"
+                    },
+                    {
+                        "baseGameId": "3011",
+                        "leftName": "任三组选",
+                        "rightName": "组六复式",
+                        "subGameId": "301106"
+                    }
+                ]
+            },
+            {
+                "gameId": "3012",
+                "gameName": "任选四",
+                "gameSons": [
+                    {
+                        "baseGameId": "3012",
+                        "leftName": "任四直选",
+                        "rightName": "复式",
+                        "subGameId": "301201"
+                    },
+                    {
+                        "baseGameId": "3012",
+                        "leftName": "任四组选",
+                        "rightName": "组选6",
+                        "subGameId": "301205"
+                    },
+                    {
+                        "baseGameId": "3012",
+                        "leftName": "任四组选",
+                        "rightName": "组选12",
+                        "subGameId": "301204"
+                    },
+                    {
+                        "baseGameId": "3012",
+                        "leftName": "任四组选",
+                        "rightName": "组选24",
+                        "subGameId": "301203"
+                    },
+                    {
+                        "baseGameId": "3012",
+                        "leftName": "任四组选",
+                        "rightName": "组选4",
+                        "subGameId": "301206"
+                    },
+                    {
+                        "baseGameId": "3012",
+                        "leftName": "任四直选",
+                        "rightName": "单式",
+                        "subGameId": "301202"
+                    }
+                ]
+            }
+        ],
+        "shutTime": "06:00:00",
+        "standGameList": [
+            {
+                "gameId": "3001",
+                "gameName": "定位胆",
+                "gameSons": [
+                    {
+                        "baseGameId": "3001",
+                        "leftName": "定位胆",
+                        "rightName": "定位胆",
+                        "subGameId": "300101"
+                    }
+                ]
+            },
+            {
+                "gameId": "3002",
+                "gameName": "二星",
+                "gameSons": [
+                    {
+                        "baseGameId": "3002",
+                        "leftName": "前二直选",
+                        "rightName": "复式",
+                        "subGameId": "300201"
+                    },
+                    {
+                        "baseGameId": "3002",
+                        "leftName": "前二直选",
+                        "rightName": "和值",
+                        "subGameId": "300203"
+                    },
+                    {
+                        "baseGameId": "3002",
+                        "leftName": "后二直选",
+                        "rightName": "和值",
+                        "subGameId": "300207"
+                    },
+                    {
+                        "baseGameId": "3002",
+                        "leftName": "后二直选",
+                        "rightName": "跨度",
+                        "subGameId": "300208"
+                    },
+                    {
+                        "baseGameId": "3002",
+                        "leftName": "前二组选",
+                        "rightName": "复式",
+                        "subGameId": "300209"
+                    },
+                    {
+                        "baseGameId": "3002",
+                        "leftName": "前二组选",
+                        "rightName": "单式",
+                        "subGameId": "300210"
+                    },
+                    {
+                        "baseGameId": "3002",
+                        "leftName": "前二组选",
+                        "rightName": "和值",
+                        "subGameId": "300211"
+                    },
+                    {
+                        "baseGameId": "3002",
+                        "leftName": "前二组选",
+                        "rightName": "包胆",
+                        "subGameId": "300212"
+                    },
+                    {
+                        "baseGameId": "3002",
+                        "leftName": "后二组选",
+                        "rightName": "复式",
+                        "subGameId": "300213"
+                    },
+                    {
+                        "baseGameId": "3002",
+                        "leftName": "后二组选",
+                        "rightName": "包胆",
+                        "subGameId": "300216"
+                    },
+                    {
+                        "baseGameId": "3002",
+                        "leftName": "后二直选",
+                        "rightName": "复式",
+                        "subGameId": "300205"
+                    },
+                    {
+                        "baseGameId": "3002",
+                        "leftName": "后二组选",
+                        "rightName": "单式",
+                        "subGameId": "300214"
+                    },
+                    {
+                        "baseGameId": "3002",
+                        "leftName": "后二组选",
+                        "rightName": "和值",
+                        "subGameId": "300215"
+                    },
+                    {
+                        "baseGameId": "3002",
+                        "leftName": "前二直选",
+                        "rightName": "跨度",
+                        "subGameId": "300204"
+                    },
+                    {
+                        "baseGameId": "3002",
+                        "leftName": "前二直选",
+                        "rightName": "单式",
+                        "subGameId": "300202"
+                    },
+                    {
+                        "baseGameId": "3002",
+                        "leftName": "后二直选",
+                        "rightName": "单式",
+                        "subGameId": "300206"
+                    }
+                ]
+            },
+            {
+                "gameId": "3003",
+                "gameName": "前三",
+                "gameSons": [
+                    {
+                        "baseGameId": "3003",
+                        "leftName": "前三直选",
+                        "rightName": "复式",
+                        "subGameId": "300301"
+                    },
+                    {
+                        "baseGameId": "3003",
+                        "leftName": "前三组选",
+                        "rightName": "组选和值",
+                        "subGameId": "300309"
+                    },
+                    {
+                        "baseGameId": "3003",
+                        "leftName": "前三直选",
+                        "rightName": "和值",
+                        "subGameId": "300303"
+                    },
+                    {
+                        "baseGameId": "3003",
+                        "leftName": "前三直选",
+                        "rightName": "跨度",
+                        "subGameId": "300304"
+                    },
+                    {
+                        "baseGameId": "3003",
+                        "leftName": "前三其他",
+                        "rightName": "特殊号码",
+                        "subGameId": "300312"
+                    },
+                    {
+                        "baseGameId": "3003",
+                        "leftName": "前三直选",
+                        "rightName": "单式",
+                        "subGameId": "300302"
+                    },
+                    {
+                        "baseGameId": "3003",
+                        "leftName": "前三组选",
+                        "rightName": "混合组选",
+                        "subGameId": "300308"
+                    },
+                    {
+                        "baseGameId": "3003",
+                        "leftName": "前三直选",
+                        "rightName": "组合",
+                        "subGameId": "300305"
+                    },
+                    {
+                        "baseGameId": "3003",
+                        "leftName": "前三组选",
+                        "rightName": "组选包胆",
+                        "subGameId": "300310"
+                    },
+                    {
+                        "baseGameId": "3003",
+                        "leftName": "前三组选",
+                        "rightName": "组三",
+                        "subGameId": "300306"
+                    },
+                    {
+                        "baseGameId": "3003",
+                        "leftName": "前三组选",
+                        "rightName": "组六",
+                        "subGameId": "300307"
+                    },
+                    {
+                        "baseGameId": "3003",
+                        "leftName": "前三其他",
+                        "rightName": "和值尾数",
+                        "subGameId": "300311"
+                    }
+                ]
+            },
+            {
+                "gameId": "3004",
+                "gameName": "中三",
+                "gameSons": [
+                    {
+                        "baseGameId": "3004",
+                        "leftName": "中三直选",
+                        "rightName": "和值",
+                        "subGameId": "300403"
+                    },
+                    {
+                        "baseGameId": "3004",
+                        "leftName": "中三直选",
+                        "rightName": "跨度",
+                        "subGameId": "300404"
+                    },
+                    {
+                        "baseGameId": "3004",
+                        "leftName": "中三组选",
+                        "rightName": "组六",
+                        "subGameId": "300407"
+                    },
+                    {
+                        "baseGameId": "3004",
+                        "leftName": "中三组选",
+                        "rightName": "组选和值",
+                        "subGameId": "300409"
+                    },
+                    {
+                        "baseGameId": "3004",
+                        "leftName": "中三其他",
+                        "rightName": "和值尾数",
+                        "subGameId": "300411"
+                    },
+                    {
+                        "baseGameId": "3004",
+                        "leftName": "中三直选",
+                        "rightName": "复式",
+                        "subGameId": "300401"
+                    },
+                    {
+                        "baseGameId": "3004",
+                        "leftName": "中三其他",
+                        "rightName": "特殊号码",
+                        "subGameId": "300412"
+                    },
+                    {
+                        "baseGameId": "3004",
+                        "leftName": "中三直选",
+                        "rightName": "单式",
+                        "subGameId": "300402"
+                    },
+                    {
+                        "baseGameId": "3004",
+                        "leftName": "中三组选",
+                        "rightName": "混合组选",
+                        "subGameId": "300408"
+                    },
+                    {
+                        "baseGameId": "3004",
+                        "leftName": "中三直选",
+                        "rightName": "组合",
+                        "subGameId": "300405"
+                    },
+                    {
+                        "baseGameId": "3004",
+                        "leftName": "中三组选",
+                        "rightName": "组选包胆",
+                        "subGameId": "300410"
+                    },
+                    {
+                        "baseGameId": "3004",
+                        "leftName": "中三组选",
+                        "rightName": "组三",
+                        "subGameId": "300406"
+                    }
+                ]
+            },
+            {
+                "gameId": "3005",
+                "gameName": "后三",
+                "gameSons": [
+                    {
+                        "baseGameId": "3005",
+                        "leftName": "后三直选",
+                        "rightName": "复式",
+                        "subGameId": "300501"
+                    },
+                    {
+                        "baseGameId": "3005",
+                        "leftName": "后三直选",
+                        "rightName": "单式",
+                        "subGameId": "300502"
+                    },
+                    {
+                        "baseGameId": "3005",
+                        "leftName": "后三组选",
+                        "rightName": "组三",
+                        "subGameId": "300506"
+                    },
+                    {
+                        "baseGameId": "3005",
+                        "leftName": "后三组选",
+                        "rightName": "混合组选",
+                        "subGameId": "300508"
+                    },
+                    {
+                        "baseGameId": "3005",
+                        "leftName": "后三组选",
+                        "rightName": "组选和值",
+                        "subGameId": "300509"
+                    },
+                    {
+                        "baseGameId": "3005",
+                        "leftName": "后三其他",
+                        "rightName": "特殊号码",
+                        "subGameId": "300512"
+                    },
+                    {
+                        "baseGameId": "3005",
+                        "leftName": "后三组选",
+                        "rightName": "组六",
+                        "subGameId": "300507"
+                    },
+                    {
+                        "baseGameId": "3005",
+                        "leftName": "后三直选",
+                        "rightName": "和值",
+                        "subGameId": "300503"
+                    },
+                    {
+                        "baseGameId": "3005",
+                        "leftName": "后三直选",
+                        "rightName": "跨度",
+                        "subGameId": "300504"
+                    },
+                    {
+                        "baseGameId": "3005",
+                        "leftName": "后三直选",
+                        "rightName": "组合",
+                        "subGameId": "300505"
+                    },
+                    {
+                        "baseGameId": "3005",
+                        "leftName": "后三组选",
+                        "rightName": "组选包胆",
+                        "subGameId": "300510"
+                    },
+                    {
+                        "baseGameId": "3005",
+                        "leftName": "后三其他",
+                        "rightName": "和值尾数",
+                        "subGameId": "300511"
+                    }
+                ]
+            },
+            {
+                "gameId": "3006",
+                "gameName": "四星",
+                "gameSons": [
+                    {
+                        "baseGameId": "3006",
+                        "leftName": "后四直选",
+                        "rightName": "复式",
+                        "subGameId": "300601"
+                    },
+                    {
+                        "baseGameId": "3006",
+                        "leftName": "后四直选",
+                        "rightName": "单式",
+                        "subGameId": "300602"
+                    }
+                ]
+            },
+            {
+                "gameId": "3007",
+                "gameName": "五星",
+                "gameSons": [
+                    {
+                        "baseGameId": "3007",
+                        "leftName": "五星直选",
+                        "rightName": "复式",
+                        "subGameId": "300701"
+                    },
+                    {
+                        "baseGameId": "3007",
+                        "leftName": "五星直选",
+                        "rightName": "单式",
+                        "subGameId": "300702"
+                    }
+                ]
+            },
+            {
+                "gameId": "3008",
+                "gameName": "大小单双",
+                "gameSons": [
+                    {
+                        "baseGameId": "3008",
+                        "leftName": "后三",
+                        "rightName": "大小单双",
+                        "subGameId": "300802"
+                    },
+                    {
+                        "baseGameId": "3008",
+                        "leftName": "前二",
+                        "rightName": "大小单双",
+                        "subGameId": "300803"
+                    },
+                    {
+                        "baseGameId": "3008",
+                        "leftName": "前三",
+                        "rightName": "大小单双",
+                        "subGameId": "300804"
+                    },
+                    {
+                        "baseGameId": "3008",
+                        "leftName": "后二",
+                        "rightName": "大小单双",
+                        "subGameId": "300801"
+                    }
+                ]
+            },
+            {
+                "gameId": "3009",
+                "gameName": "不定位",
+                "gameSons": [
+                    {
+                        "baseGameId": "3009",
+                        "leftName": "后四",
+                        "rightName": "一码不定位",
+                        "subGameId": "300907"
+                    },
+                    {
+                        "baseGameId": "3009",
+                        "leftName": "五星",
+                        "rightName": "二码不定位",
+                        "subGameId": "300910"
+                    },
+                    {
+                        "baseGameId": "3009",
+                        "leftName": "前三",
+                        "rightName": "一码不定位",
+                        "subGameId": "300901"
+                    },
+                    {
+                        "baseGameId": "3009",
+                        "leftName": "前四",
+                        "rightName": "一码不定位",
+                        "subGameId": "300905"
+                    },
+                    {
+                        "baseGameId": "3009",
+                        "leftName": "五星",
+                        "rightName": "一码不定位",
+                        "subGameId": "300909"
+                    },
+                    {
+                        "baseGameId": "3009",
+                        "leftName": "后三",
+                        "rightName": "一码不定位",
+                        "subGameId": "300903"
+                    },
+                    {
+                        "baseGameId": "3009",
+                        "leftName": "前三",
+                        "rightName": "二码不定位",
+                        "subGameId": "300902"
+                    },
+                    {
+                        "baseGameId": "3009",
+                        "leftName": "前四",
+                        "rightName": "二码不定位",
+                        "subGameId": "300906"
+                    },
+                    {
+                        "baseGameId": "3009",
+                        "leftName": "后四",
+                        "rightName": "二码不定位",
+                        "subGameId": "300908"
+                    },
+                    {
+                        "baseGameId": "3009",
+                        "leftName": "后三",
+                        "rightName": "二码不定位",
+                        "subGameId": "300904"
+                    },
+                    {
+                        "baseGameId": "3009",
+                        "leftName": "五星",
+                        "rightName": "三码不定位",
+                        "subGameId": "300911"
+                    }
+                ]
+            },
+            {
+                "gameId": "3014",
+                "gameName": "两面盘",
+                "gameSons": [
+                    {
+                        "baseGameId": "3014",
+                        "leftName": "整合",
+                        "rightName": "万定位",
+                        "subGameId": "301401"
+                    },
+                    {
+                        "baseGameId": "3014",
+                        "leftName": "整合",
+                        "rightName": "千定位",
+                        "subGameId": "301402"
+                    },
+                    {
+                        "baseGameId": "3014",
+                        "leftName": "整合",
+                        "rightName": "拾定位",
+                        "subGameId": "301404"
+                    },
+                    {
+                        "baseGameId": "3014",
+                        "leftName": "龙虎",
+                        "rightName": "万佰",
+                        "subGameId": "301408"
+                    },
+                    {
+                        "baseGameId": "3014",
+                        "leftName": "龙虎",
+                        "rightName": "千拾",
+                        "subGameId": "301412"
+                    },
+                    {
+                        "baseGameId": "3014",
+                        "leftName": "龙虎",
+                        "rightName": "拾个",
+                        "subGameId": "301416"
+                    },
+                    {
+                        "baseGameId": "3014",
+                        "leftName": "和值单双",
+                        "rightName": "万千",
+                        "subGameId": "301418"
+                    },
+                    {
+                        "baseGameId": "3014",
+                        "leftName": "和值单双",
+                        "rightName": "千佰",
+                        "subGameId": "301422"
+                    },
+                    {
+                        "baseGameId": "3014",
+                        "leftName": "和值单双",
+                        "rightName": "佰拾",
+                        "subGameId": "301425"
+                    },
+                    {
+                        "baseGameId": "3014",
+                        "leftName": "整合",
+                        "rightName": "佰定位",
+                        "subGameId": "301403"
+                    },
+                    {
+                        "baseGameId": "3014",
+                        "leftName": "整合",
+                        "rightName": "个定位",
+                        "subGameId": "301405"
+                    },
+                    {
+                        "baseGameId": "3014",
+                        "leftName": "整合",
+                        "rightName": "总和",
+                        "subGameId": "301406"
+                    },
+                    {
+                        "baseGameId": "3014",
+                        "leftName": "和值单双",
+                        "rightName": "万佰",
+                        "subGameId": "301419"
+                    },
+                    {
+                        "baseGameId": "3014",
+                        "leftName": "和值单双",
+                        "rightName": "万拾",
+                        "subGameId": "301420"
+                    },
+                    {
+                        "baseGameId": "3014",
+                        "leftName": "和值单双",
+                        "rightName": "万个",
+                        "subGameId": "301421"
+                    },
+                    {
+                        "baseGameId": "3014",
+                        "leftName": "和值单双",
+                        "rightName": "千拾",
+                        "subGameId": "301423"
+                    },
+                    {
+                        "baseGameId": "3014",
+                        "leftName": "和值单双",
+                        "rightName": "千个",
+                        "subGameId": "301424"
+                    },
+                    {
+                        "baseGameId": "3014",
+                        "leftName": "和值单双",
+                        "rightName": "佰个",
+                        "subGameId": "301426"
+                    },
+                    {
+                        "baseGameId": "3014",
+                        "leftName": "和值单双",
+                        "rightName": "拾个",
+                        "subGameId": "301427"
+                    },
+                    {
+                        "baseGameId": "3014",
+                        "leftName": "龙虎",
+                        "rightName": "万千",
+                        "subGameId": "301407"
+                    },
+                    {
+                        "baseGameId": "3014",
+                        "leftName": "龙虎",
+                        "rightName": "万拾",
+                        "subGameId": "301409"
+                    },
+                    {
+                        "baseGameId": "3014",
+                        "leftName": "龙虎",
+                        "rightName": "万个",
+                        "subGameId": "301410"
+                    },
+                    {
+                        "baseGameId": "3014",
+                        "leftName": "龙虎",
+                        "rightName": "千佰",
+                        "subGameId": "301411"
+                    },
+                    {
+                        "baseGameId": "3014",
+                        "leftName": "龙虎",
+                        "rightName": "千个",
+                        "subGameId": "301413"
+                    },
+                    {
+                        "baseGameId": "3014",
+                        "leftName": "龙虎",
+                        "rightName": "佰拾",
+                        "subGameId": "301414"
+                    },
+                    {
+                        "baseGameId": "3014",
+                        "leftName": "龙虎",
+                        "rightName": "佰个",
+                        "subGameId": "301415"
+                    },
+                    {
+                        "baseGameId": "3014",
+                        "leftName": "龙虎",
+                        "rightName": "和",
+                        "subGameId": "301417"
+                    }
+                ]
+            }
+        ]
+    },
+    "msg": "OK"
+}

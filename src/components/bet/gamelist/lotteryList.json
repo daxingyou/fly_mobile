@@ -1,0 +1,92 @@
+{
+    "code": 0,
+    "data": [
+        {
+            "classId": "1",
+            "className": "福体彩",
+            "kindList": [],
+            "memberRebet": 12.9
+        },
+        {
+            "classId": "2",
+            "className": "龙虎和",
+            "kindList": [],
+            "memberRebet": null
+        },
+        {
+            "classId": "3",
+            "className": "时时彩",
+            "kindList": [
+                {
+                    "autoAward": "1",
+                    "kindId": "jxssc",
+                    "kindName": "江西彩",
+                    "mTime": 10,
+                    "orderNo": "2",
+                    "sTime": 3
+                },
+                {
+                    "autoAward": "1",
+                    "kindId": "tjssc",
+                    "kindName": "天津彩",
+                    "mTime": 0,
+                    "orderNo": "2",
+                    "sTime": 0
+                },
+                {
+                    "autoAward": "1",
+                    "kindId": "xjssc",
+                    "kindName": "新疆彩",
+                    "mTime": 22,
+                    "orderNo": "2",
+                    "sTime": 33
+                }
+            ],
+            "memberRebet": 13
+        },
+        {
+            "classId": "4",
+            "className": "快三",
+            "kindList": [],
+            "memberRebet": 12.8
+        },
+        {
+            "classId": "5",
+            "className": "11选5",
+            "kindList": [
+                {
+                    "autoAward": "1",
+                    "kindId": "jx11x5",
+                    "kindName": "江西11选5",
+                    "mTime": 22,
+                    "orderNo": "2",
+                    "sTime": 33
+                },
+                {
+                    "autoAward": "1",
+                    "kindId": "sd11x5",
+                    "kindName": "山东11选5",
+                    "mTime": 22,
+                    "orderNo": "2",
+                    "sTime": 33
+                },
+                {
+                    "autoAward": "1",
+                    "kindId": "sh11x5",
+                    "kindName": "上海11选5",
+                    "mTime": 22,
+                    "orderNo": "2",
+                    "sTime": 33
+                }
+            ],
+            "memberRebet": 12.7
+        },
+        {
+            "classId": "6",
+            "className": "北京赛车",
+            "kindList": [],
+            "memberRebet": 12.9
+        }
+    ],
+    "msg": "OK"
+}

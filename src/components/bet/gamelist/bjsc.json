@@ -1,0 +1,216 @@
+{
+    "code": 0,
+    "data": {
+        "awardTime": "08:00:00",
+        "midleTime": null,
+        "optionGameList": [],
+        "shutTime": "23:30:00",
+        "standGameList": [
+            {
+                "gameId": "6001",
+                "gameName": "前一",
+                "gameSons": [
+                    {
+                        "baseGameId": "6001",
+                        "leftName": "前一直选",
+                        "rightName": "复式",
+                        "subGameId": "600101"
+                    }
+                ]
+            },
+            {
+                "gameId": "6002",
+                "gameName": "前二",
+                "gameSons": [
+                    {
+                        "baseGameId": "6002",
+                        "leftName": "前二直选",
+                        "rightName": "复式",
+                        "subGameId": "600202"
+                    },
+                    {
+                        "baseGameId": "6002",
+                        "leftName": "前二直选",
+                        "rightName": "单式",
+                        "subGameId": "600203"
+                    }
+                ]
+            },
+            {
+                "gameId": "6003",
+                "gameName": "前三",
+                "gameSons": [
+                    {
+                        "baseGameId": "6003",
+                        "leftName": "前三直选",
+                        "rightName": "复式",
+                        "subGameId": "600301"
+                    },
+                    {
+                        "baseGameId": "6003",
+                        "leftName": "前三直选",
+                        "rightName": "复式",
+                        "subGameId": "600302"
+                    }
+                ]
+            },
+            {
+                "gameId": "6004",
+                "gameName": "定位胆",
+                "gameSons": [
+                    {
+                        "baseGameId": "6004",
+                        "leftName": "定位胆",
+                        "rightName": "定位胆",
+                        "subGameId": "600401"
+                    }
+                ]
+            },
+            {
+                "gameId": "6005",
+                "gameName": "两面盘",
+                "gameSons": [
+                    {
+                        "baseGameId": "6005",
+                        "leftName": "大小单双",
+                        "rightName": null,
+                        "subGameId": "600501"
+                    },
+                    {
+                        "baseGameId": "6005",
+                        "leftName": "龙虎",
+                        "rightName": null,
+                        "subGameId": "600502"
+                    },
+                    {
+                        "baseGameId": "6005",
+                        "leftName": "冠亚合值",
+                        "rightName": "大",
+                        "subGameId": "600503"
+                    },
+                    {
+                        "baseGameId": "6005",
+                        "leftName": "冠亚合值",
+                        "rightName": "小",
+                        "subGameId": "600504"
+                    },
+                    {
+                        "baseGameId": "6005",
+                        "leftName": "冠亚合值",
+                        "rightName": "单",
+                        "subGameId": "600505"
+                    },
+                    {
+                        "baseGameId": "6005",
+                        "leftName": "冠亚合值",
+                        "rightName": "双",
+                        "subGameId": "600506"
+                    },
+                    {
+                        "baseGameId": "6005",
+                        "leftName": "冠亚组合合值",
+                        "rightName": "3",
+                        "subGameId": "600507"
+                    },
+                    {
+                        "baseGameId": "6005",
+                        "leftName": "冠亚组合合值",
+                        "rightName": "4",
+                        "subGameId": "600508"
+                    },
+                    {
+                        "baseGameId": "6005",
+                        "leftName": "冠亚组合合值",
+                        "rightName": "5",
+                        "subGameId": "600509"
+                    },
+                    {
+                        "baseGameId": "6005",
+                        "leftName": "冠亚组合合值",
+                        "rightName": "6",
+                        "subGameId": "600510"
+                    },
+                    {
+                        "baseGameId": "6005",
+                        "leftName": "冠亚组合合值",
+                        "rightName": "7",
+                        "subGameId": "600511"
+                    },
+                    {
+                        "baseGameId": "6005",
+                        "leftName": "冠亚组合合值",
+                        "rightName": "8",
+                        "subGameId": "600512"
+                    },
+                    {
+                        "baseGameId": "6005",
+                        "leftName": "冠亚组合合值",
+                        "rightName": "9",
+                        "subGameId": "600513"
+                    },
+                    {
+                        "baseGameId": "6005",
+                        "leftName": "冠亚组合合值",
+                        "rightName": "10",
+                        "subGameId": "600514"
+                    },
+                    {
+                        "baseGameId": "6005",
+                        "leftName": "冠亚组合合值",
+                        "rightName": "11",
+                        "subGameId": "600515"
+                    },
+                    {
+                        "baseGameId": "6005",
+                        "leftName": "冠亚组合合值",
+                        "rightName": "12",
+                        "subGameId": "600516"
+                    },
+                    {
+                        "baseGameId": "6005",
+                        "leftName": "冠亚组合合值",
+                        "rightName": "13",
+                        "subGameId": "600517"
+                    },
+                    {
+                        "baseGameId": "6005",
+                        "leftName": "冠亚组合合值",
+                        "rightName": "14",
+                        "subGameId": "600518"
+                    },
+                    {
+                        "baseGameId": "6005",
+                        "leftName": "冠亚组合合值",
+                        "rightName": "15",
+                        "subGameId": "600519"
+                    },
+                    {
+                        "baseGameId": "6005",
+                        "leftName": "冠亚组合合值",
+                        "rightName": "16",
+                        "subGameId": "600520"
+                    },
+                    {
+                        "baseGameId": "6005",
+                        "leftName": "冠亚组合合值",
+                        "rightName": "17",
+                        "subGameId": "600521"
+                    },
+                    {
+                        "baseGameId": "6005",
+                        "leftName": "冠亚组合合值",
+                        "rightName": "18",
+                        "subGameId": "600522"
+                    },
+                    {
+                        "baseGameId": "6005",
+                        "leftName": "冠亚组合合值",
+                        "rightName": "19",
+                        "subGameId": "600523"
+                    }
+                ]
+            }
+        ]
+    },
+    "msg": "OK"
+}

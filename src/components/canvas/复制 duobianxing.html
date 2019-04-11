@@ -1,0 +1,101 @@
+<!DOCTYPE>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+		<style>
+			#cas {
+				display: block;
+				border: 1px solid;
+				margin: auto;
+			}
+			/*.controlDot{
+			position:absolute;
+			width:10px;
+			height:10px;
+			border:1px solid;
+			border-radius:6px;
+			background-color:#000;
+		}
+		.controlDot:hover{
+			background-color: #FFF;
+		}*/
+		</style>
+		<script>
+			var imgCreates
+			window.onload = function() {
+				target = null;
+				img = document.getElementById('img')
+				canvas = document.getElementById('cas');
+				context = canvas.getContext('2d');
+				var imgCreate;
+				imgCreates = [];
+				canvas.onclick = function(event) {
+					event = event || window.event;
+					var startDot = {
+						x: event.clientX + document.documentElement.scrollLeft + document.body.scrollLeft - canvas.offsetLeft,
+						y: event.clientY + document.documentElement.scrollTop + document.body.scrollTop - canvas.offsetTop
+					}
+					if(target) {
+						target = null;
+					}
+					target = new ImgCreate(img, startDot.x, startDot.y, 50, 80);
+					target.animateDraw()
+				}
+			}
+			Array.prototype.forEach = function(callback) {
+				for(var i = 0; i < this.length; i++) {
+					callback.call(this[i]);
+				}
+			}
+			var ImgCreate = function(img, centerX, centerY, radius, maxRadius) {
+				this.img = img;
+				this.centerX = centerX;
+				this.centerY = centerY;
+				this.radius = radius;
+				this.maxRadius = maxRadius
+			}
+			ImgCreate.prototype = {
+				draw: function(b) {
+					context.drawImage(img, this.centerX - (this.radius / 2), this.centerY - (this.radius / 2), this.radius, this.radius);
+				},
+				animateDraw: function() {
+					var timer;
+					timer = setInterval(() => {
+						context.clearRect(0, 0, canvas.width, canvas.height);
+						if(this.maxRadius <= this.radius) {
+							imgCreates.forEach(function() {
+								this.draw();//此处this指向imgCreates遍历出的筹码对象
+							});
+							this.draw();//此处this指向当前生成的筹码对象
+							clearInterval(timer)
+							imgCreates.push(this);
+							return
+						}
+						this.maxRadius -= 2;
+						imgCreates.forEach(function() {
+							this.draw();
+						});
+						context.drawImage(img, this.centerX - (this.maxRadius / 2), this.centerY - (this.maxRadius / 2), this.maxRadius, this.maxRadius);
+					}, 10)
+
+				}
+			}
+		</script>
+		<title>绘制多边形</title>
+	</head>
+
+	<body>
+		<div>
+			<img id="img" src="./qiu.png" />
+			<canvas id='cas' width="600" height="600">浏览器不支持canvas</canvas>
+			<div style="text-align:center">
+				<button id="pen">画笔</button> 画
+				<input type="number" min="3" id="changeSlide" value="6" style="width:50px">边型 &nbsp;&nbsp;&nbsp;
+				<button id="clear">橡皮擦</button>
+				<input type="range" step="1" value="50" min="1" max="100" id="clearRange">
+			</div>
+		</div>
+	</body>
+
+</html>

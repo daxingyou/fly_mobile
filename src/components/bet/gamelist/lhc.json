@@ -1,0 +1,436 @@
+{
+    "code": 0,
+    "data": {
+        "awardTime": "09:27:32",
+        "midleTime": null,
+        "optionGameList": [],
+        "shutTime": "22:28:23",
+        "standGameList": [
+            {
+                "gameId": "2001",
+                "gameName": "特码",
+                "gameSons": [
+                    {
+                        "baseGameId": "2001",
+                        "leftName": "特码",
+                        "rightName": "特码",
+                        "subGameId": "200101"
+                    }
+                ]
+            },
+            {
+                "gameId": "2002",
+                "gameName": "特两面",
+                "gameSons": [
+                    {
+                        "baseGameId": "2002",
+                        "leftName": "特两面",
+                        "rightName": "特两面",
+                        "subGameId": "200201"
+                    }
+                ]
+            },
+            {
+                "gameId": "2003",
+                "gameName": "色波",
+                "gameSons": [
+                    {
+                        "baseGameId": "2003",
+                        "leftName": "色波",
+                        "rightName": "色波红",
+                        "subGameId": "200301"
+                    },
+                    {
+                        "baseGameId": "2003",
+                        "leftName": "色波",
+                        "rightName": "色波蓝",
+                        "subGameId": "200302"
+                    },
+                    {
+                        "baseGameId": "2003",
+                        "leftName": "色波",
+                        "rightName": "色波绿",
+                        "subGameId": "200303"
+                    }
+                ]
+            },
+            {
+                "gameId": "2004",
+                "gameName": "特肖",
+                "gameSons": [
+                    {
+                        "baseGameId": "2004",
+                        "leftName": "特肖",
+                        "rightName": "特肖",
+                        "subGameId": "200401"
+                    }
+                ]
+            },
+            {
+                "gameId": "2005",
+                "gameName": "正码",
+                "gameSons": [
+                    {
+                        "baseGameId": "2005",
+                        "leftName": "正码",
+                        "rightName": "正码",
+                        "subGameId": "200501"
+                    },
+                    {
+                        "baseGameId": "2005",
+                        "leftName": "正码",
+                        "rightName": "总和",
+                        "subGameId": "200502"
+                    }
+                ]
+            },
+            {
+                "gameId": "2006",
+                "gameName": "正码特",
+                "gameSons": [
+                    {
+                        "baseGameId": "2006",
+                        "leftName": "正码特",
+                        "rightName": "正码特一",
+                        "subGameId": "200601"
+                    },
+                    {
+                        "baseGameId": "2006",
+                        "leftName": "正码特",
+                        "rightName": "正码特二",
+                        "subGameId": "200602"
+                    },
+                    {
+                        "baseGameId": "2006",
+                        "leftName": "正码特",
+                        "rightName": "正码特三",
+                        "subGameId": "200603"
+                    },
+                    {
+                        "baseGameId": "2006",
+                        "leftName": "正码特",
+                        "rightName": "正码特四",
+                        "subGameId": "200604"
+                    },
+                    {
+                        "baseGameId": "2006",
+                        "leftName": "正码特",
+                        "rightName": "正码特五",
+                        "subGameId": "200605"
+                    },
+                    {
+                        "baseGameId": "2006",
+                        "leftName": "正码特",
+                        "rightName": "正码特六",
+                        "subGameId": "200606"
+                    }
+                ]
+            },
+            {
+                "gameId": "2007",
+                "gameName": "正码1~6",
+                "gameSons": [
+                    {
+                        "baseGameId": "2007",
+                        "leftName": "正码1~6",
+                        "rightName": "正码1两面",
+                        "subGameId": "200701"
+                    },
+                    {
+                        "baseGameId": "2007",
+                        "leftName": "正码1~6",
+                        "rightName": "正码1红",
+                        "subGameId": "200702"
+                    },
+                    {
+                        "baseGameId": "2007",
+                        "leftName": "正码1~6",
+                        "rightName": "正码1蓝",
+                        "subGameId": "200703"
+                    },
+                    {
+                        "baseGameId": "2007",
+                        "leftName": "正码1~6",
+                        "rightName": "正码1绿",
+                        "subGameId": "200704"
+                    },
+                    {
+                        "baseGameId": "2007",
+                        "leftName": "正码1~6",
+                        "rightName": "正码2两面",
+                        "subGameId": "200705"
+                    },
+                    {
+                        "baseGameId": "2007",
+                        "leftName": "正码1~6",
+                        "rightName": "正码2红",
+                        "subGameId": "200706"
+                    },
+                    {
+                        "baseGameId": "2007",
+                        "leftName": "正码1~6",
+                        "rightName": "正码2蓝",
+                        "subGameId": "200707"
+                    },
+                    {
+                        "baseGameId": "2007",
+                        "leftName": "正码1~6",
+                        "rightName": "正码2绿",
+                        "subGameId": "200708"
+                    },{
+                        "baseGameId": "2007",
+                        "leftName": "正码1~6",
+                        "rightName": "正码3两面",
+                        "subGameId": "200709"
+                    },
+                    {
+                        "baseGameId": "2007",
+                        "leftName": "正码1~6",
+                        "rightName": "正码3红",
+                        "subGameId": "200710"
+                    },
+                    {
+                        "baseGameId": "2007",
+                        "leftName": "正码1~6",
+                        "rightName": "正码3蓝",
+                        "subGameId": "200711"
+                    },
+                    {
+                        "baseGameId": "2007",
+                        "leftName": "正码1~6",
+                        "rightName": "正码3绿",
+                        "subGameId": "200712"
+                    },{
+                        "baseGameId": "2007",
+                        "leftName": "正码1~6",
+                        "rightName": "正码4两面",
+                        "subGameId": "200713"
+                    },
+                    {
+                        "baseGameId": "2007",
+                        "leftName": "正码1~6",
+                        "rightName": "正码4红",
+                        "subGameId": "200714"
+                    },
+                    {
+                        "baseGameId": "2007",
+                        "leftName": "正码1~6",
+                        "rightName": "正码4蓝",
+                        "subGameId": "200715"
+                    },
+                    {
+                        "baseGameId": "2007",
+                        "leftName": "正码1~6",
+                        "rightName": "正码4绿",
+                        "subGameId": "200716"
+                    },{
+                        "baseGameId": "2007",
+                        "leftName": "正码1~6",
+                        "rightName": "正码5两面",
+                        "subGameId": "200717"
+                    },
+                    {
+                        "baseGameId": "2007",
+                        "leftName": "正码1~6",
+                        "rightName": "正码5红",
+                        "subGameId": "200718"
+                    },
+                    {
+                        "baseGameId": "2007",
+                        "leftName": "正码1~6",
+                        "rightName": "正码5蓝",
+                        "subGameId": "200719"
+                    },
+                    {
+                        "baseGameId": "2007",
+                        "leftName": "正码1~6",
+                        "rightName": "正码5绿",
+                        "subGameId": "200720"
+                    },{
+                        "baseGameId": "2007",
+                        "leftName": "正码1~6",
+                        "rightName": "正码6两面",
+                        "subGameId": "200721"
+                    },
+                    {
+                        "baseGameId": "2007",
+                        "leftName": "正码1~6",
+                        "rightName": "正码6红",
+                        "subGameId": "200722"
+                    },
+                    {
+                        "baseGameId": "2007",
+                        "leftName": "正码1~6",
+                        "rightName": "正码6蓝",
+                        "subGameId": "200723"
+                    },
+                    {
+                        "baseGameId": "2007",
+                        "leftName": "正码1~6",
+                        "rightName": "正码6绿",
+                        "subGameId": "200724"
+                    }
+                ]
+            },
+            {
+                "gameId": "2008",
+                "gameName": "正码特",
+                "gameSons": [
+                    {
+                        "baseGameId": "2008",
+                        "leftName": "半波",
+                        "rightName": "红波红大",
+                        "subGameId": "200801"
+                    },
+                    {
+                        "baseGameId": "2008",
+                        "leftName": "半波",
+                        "rightName": "红波红小",
+                        "subGameId": "200802"
+                    },
+                    {
+                        "baseGameId": "2008",
+                        "leftName": "半波",
+                        "rightName": "红波红单",
+                        "subGameId": "200803"
+                    },{
+                        "baseGameId": "2008",
+                        "leftName": "半波",
+                        "rightName": "红波红双",
+                        "subGameId": "200804"
+                    },
+                    {
+                        "baseGameId": "2008",
+                        "leftName": "半波",
+                        "rightName": "蓝波蓝大",
+                        "subGameId": "200805"
+                    },
+                    {
+                        "baseGameId": "2008",
+                        "leftName": "半波",
+                        "rightName": "蓝波蓝小",
+                        "subGameId": "200806"
+                    },
+                    {
+                        "baseGameId": "2008",
+                        "leftName": "半波",
+                        "rightName": "蓝波蓝单",
+                        "subGameId": "200807"
+                    },{
+                        "baseGameId": "2008",
+                        "leftName": "半波",
+                        "rightName": "蓝波蓝双",
+                        "subGameId": "200808"
+                    },
+                    {
+                        "baseGameId": "2008",
+                        "leftName": "半波",
+                        "rightName": "绿波绿大",
+                        "subGameId": "200809"
+                    },
+                    {
+                        "baseGameId": "2008",
+                        "leftName": "半波",
+                        "rightName": "绿波绿小",
+                        "subGameId": "200810"
+                    },
+                    {
+                        "baseGameId": "2008",
+                        "leftName": "半波",
+                        "rightName": "绿波绿单",
+                        "subGameId": "200811"
+                    },{
+                        "baseGameId": "2008",
+                        "leftName": "半波",
+                        "rightName": "绿波绿双",
+                        "subGameId": "200812"
+                    }
+                ]
+            },
+            {
+                "gameId": "2009",
+                "gameName": "一肖",
+                "gameSons": [
+                    {
+                        "baseGameId": "2009",
+                        "leftName": "一肖",
+                        "rightName": "一肖",
+                        "subGameId": "200901"
+                    }
+                ]
+            },
+            {
+                "gameId": "20010",
+                "gameName": "合肖(中)",
+                "gameSons": [
+                    {
+                        "baseGameId": "20010",
+                        "leftName": "合肖(中)",
+                        "rightName": "一肖",
+                        "subGameId": "201001"
+                    },
+                    {
+                        "baseGameId": "20010",
+                        "leftName": "合肖(中)",
+                        "rightName": "二肖",
+                        "subGameId": "201002"
+                    },
+                    {
+                        "baseGameId": "20010",
+                        "leftName": "合肖(中)",
+                        "rightName": "三肖",
+                        "subGameId": "201003"
+                    },
+                    {
+                        "baseGameId": "20010",
+                        "leftName": "合肖(中)",
+                        "rightName": "四肖",
+                        "subGameId": "201004"
+                    },
+                    {
+                        "baseGameId": "20010",
+                        "leftName": "合肖(中)",
+                        "rightName": "五肖",
+                        "subGameId": "201005"
+                    },
+                    {
+                        "baseGameId": "20010",
+                        "leftName": "合肖(中)",
+                        "rightName": "六肖",
+                        "subGameId": "201006"
+                    },
+                    {
+                        "baseGameId": "20010",
+                        "leftName": "合肖(中)",
+                        "rightName": "七肖",
+                        "subGameId": "201007"
+                    },
+                    {
+                        "baseGameId": "20010",
+                        "leftName": "合肖(中)",
+                        "rightName": "八肖",
+                        "subGameId": "201008"
+                    },
+                    {
+                        "baseGameId": "20010",
+                        "leftName": "合肖(中)",
+                        "rightName": "九肖",
+                        "subGameId": "201009"
+                    },
+                    {
+                        "baseGameId": "20010",
+                        "leftName": "合肖(中)",
+                        "rightName": "十肖",
+                        "subGameId": "201010"
+                    },
+                    {
+                        "baseGameId": "20010",
+                        "leftName": "合肖(中)",
+                        "rightName": "十一肖",
+                        "subGameId": "201011"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,299 @@
+// @import "./ionic.css";
+@import "variables";
+@import "mixins";
+// @import "scaffolding";
+
+
+.action-sheet-backdrop {
+  -webkit-transition: background-color 150ms ease-in-out;
+  transition: background-color 150ms ease-in-out;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
+  height: 100%;
+  background-color: transparent
+}
+
+.action-sheet-backdrop.active {
+  background-color: rgba(0, 0, 0, 0.4)
+}
+
+.action-sheet-wrapper {
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0);
+  -webkit-transition: all cubic-bezier(0.36, 0.66, 0.04, 1) 500ms;
+  transition: all cubic-bezier(0.36, 0.66, 0.04, 1) 500ms;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  // max-width: 500px;
+  margin: auto
+}
+
+.action-sheet-up {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0)
+}
+
+.action-sheet {
+  margin-left: 17px;
+  margin-right: 17px;
+  width: auto;
+  z-index: 11;
+  overflow: hidden
+}
+
+.action-sheet .button {
+  display: block;
+  padding: 30px;
+  width: 100%;
+  border-radius: 0;
+  border-color: #d1d3d6;
+  background-color: transparent;
+  color: #007aff;
+  font-size: 21px
+}
+
+.action-sheet .button:hover {
+  color: #007aff
+}
+
+.action-sheet .button.destructive {
+  color: #ff3b30
+}
+
+.action-sheet .button.destructive:hover {
+  color: #ff3b30
+}
+
+.action-sheet .button.active,
+.action-sheet .button.activated {
+  box-shadow: none;
+  border-color: #d1d3d6;
+  color: #007aff;
+  background: #e4e5e7
+}
+
+.action-sheet-has-icons .icon {
+  position: absolute;
+  left: 16px
+}
+
+.action-sheet-title {
+  padding: 16px;
+  color: #8f8f8f;
+  text-align: center;
+  font-size: 13px
+}
+
+.action-sheet-group {
+  margin-bottom: .16rem;
+  border-radius: 4px;
+  background-color: #fff;
+  overflow: hidden
+}
+
+.action-sheet-group .button {
+  border-width: 1px 0px 0px 0px
+}
+
+.action-sheet-group .button:first-child:last-child {
+  border-width: 0
+}
+
+.action-sheet-options {
+  background: #f1f2f3
+}
+
+.action-sheet-cancel .button {
+  font-weight: 500
+}
+
+.action-sheet-open {
+  pointer-events: none
+}
+
+.action-sheet-open.modal-open .modal {
+  pointer-events: none
+}
+
+.action-sheet-open .action-sheet-backdrop {
+  pointer-events: auto
+}
+
+.platform-android .action-sheet-backdrop.active {
+  background-color: rgba(0, 0, 0, 0.2)
+}
+
+.platform-android .action-sheet {
+  margin: 0
+}
+
+.platform-android .action-sheet .action-sheet-title,
+.platform-android .action-sheet .button {
+  text-align: left;
+  border-color: transparent;
+  font-size: 16px;
+  color: inherit
+}
+
+.platform-android .action-sheet .action-sheet-title {
+  font-size: 14px;
+  padding: 16px;
+  color: #666
+}
+
+.platform-android .action-sheet .button.active,
+.platform-android .action-sheet .button.activated {
+  background: #e8e8e8
+}
+
+.platform-android .action-sheet-group {
+  margin: 0;
+  border-radius: 0;
+  background-color: #fafafa
+}
+
+.platform-android .action-sheet-cancel {
+  display: none
+}
+
+.platform-android .action-sheet-has-icons .button {
+  padding-left: 56px
+}
+.action-sheet-wrapper .action-sheet {
+  .action-sheet-group {
+    border-radius: 18px;
+
+    .action-sheet-title {
+      font-size: 20px;
+      padding: .3rem;
+    }
+
+    .action-sheet-option {
+      font-size: 24px;
+      border: transparent;
+      color:rgb(230,68,43);
+    }
+
+    &.action-sheet-cancel {
+      .button {
+        font-size:24px;
+        color:rgb(153,153,153)
+      }
+    }
+
+    .button.active,
+    .button.activated,
+    .button:active {
+      background: #e8e8e8;
+    }
+  }
+}
+
+[theme='android'].action-sheet-backdrop {
+  &.active {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .action-sheet-wrapper .action-sheet {
+    margin: 0;
+
+    .action-sheet-group {
+      margin: 0;
+      border-radius: 0;
+      background-color: #fafafa;
+
+      .action-sheet-title,
+      .button {
+        text-align: left;
+        border-color: transparent;
+        font-size: 14px;
+        color: inherit;
+        padding-left: 15px;
+      }
+
+      .button.active,
+      .button.activated,
+      .button:active {
+        background: #e8e8e8;
+      }
+
+      &.action-sheet-cancel {
+        display: none;
+      }
+    }
+  }
+}
+
+[theme='weixin'].action-sheet-backdrop {
+  &.active {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .action-sheet-wrapper .action-sheet {
+    margin: 0;
+    color: #444;
+    background-color: #f5f5f5;
+
+    .action-sheet-group {
+      margin: 0;
+      border-radius: 0;
+
+      .action-sheet-title,
+      .button {
+        font-size: 14px;
+        color: inherit;
+      }
+
+      .action-sheet-title {
+        background-color: #f5f5f5;
+        height: 30px;
+        line-height: 30px;
+        padding: 0 15px;
+      }
+
+      .button {
+        height: 44px;
+        background: #fff;
+        margin-top: -1px;
+
+        border: none;
+        @include thin-border-before($default-border-color, 0);
+
+        &:before {
+          border-left: none;
+        }
+
+        @include thin-border-after($default-border-color, 0);
+
+        &:after {
+          border-right: none;
+        }
+      }
+
+      .button:active {
+        background: #eee;
+      }
+
+      &.action-sheet-cancel {
+        margin-top: 8px;
+      }
+    }
+  }
+}
+
+[theme='weixin'] .action-sheet-wrapper,
+[theme='android'] .action-sheet-wrapper,
+  {
+  @include transition-duration(.3s);
+  @include transition-timing-function(cubic-bezier(0.4, 0.6, 0.2, 1));
+}
+
+.modal-open [von-action-sheet] {
+  pointer-events: auto;
+}

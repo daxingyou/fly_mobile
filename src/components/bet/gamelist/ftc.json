@@ -1,0 +1,137 @@
+{
+    "code": 0,
+    "data": {
+        "awardTime": "09:27:32",
+        "midleTime": null,
+        "optionGameList": [],
+        "shutTime": "22:28:23",
+        "standGameList": [
+            {
+                "gameId": "1001",
+                "gameName": "定位胆",
+                "gameSons": [
+                    {
+                        "baseGameId": "1001",
+                        "leftName": "定位胆",
+                        "rightName": "定位胆",
+                        "subGameId": "100101"
+                    }
+                ]
+            },
+            {
+                "gameId": "1002",
+                "gameName": "二码",
+                "gameSons": [
+                   {
+                        "baseGameId": "1002",
+                        "leftName": "前二直选",
+                        "rightName": "前二直选",
+                        "subGameId": "100201"
+                   },
+                   {
+                        "baseGameId": "1002",
+                        "leftName": "后二直选",
+                        "rightName": "后二直选",
+                        "subGameId": "100202"
+                   },
+                   {
+                        "baseGameId": "1002",
+                        "leftName": "前二组选",
+                        "rightName": "前二组选",
+                        "subGameId": "100203"
+                   },
+                   {
+                        "baseGameId": "1002",
+                        "leftName": "后二组选",
+                        "rightName": "后二组选",
+                        "subGameId": "100204"
+                   }
+                ]
+            },
+            {
+                "gameId": "1003",
+                "gameName": "直选",
+                "gameSons": [
+                    {
+                        "baseGameId": "1003",
+                        "leftName": "三星直选",
+                        "rightName": "复试",
+                        "subGameId": "100301"
+                    },
+                    {
+                        "baseGameId": "1003",
+                        "leftName": "三星直选",
+                        "rightName": "单式",
+                        "subGameId": "100302"
+                    },
+                    {
+                        "baseGameId": "1003",
+                        "leftName": "三星直选",
+                        "rightName": "和值",
+                        "subGameId": "100303"
+                    }
+                ]
+            },
+            {
+                "gameId": "1004",
+                "gameName": "组选",
+                "gameSons": [
+                    {
+                        "baseGameId": "1004",
+                        "leftName": "三星组选",
+                        "rightName": "组三",
+                        "subGameId": "100401"
+                    },
+                    {
+                        "baseGameId": "1004",
+                        "leftName": "三星组选",
+                        "rightName": "组六",
+                        "subGameId": "100402"
+                    },
+                    {
+                        "baseGameId": "1004",
+                        "leftName": "三星组选",
+                        "rightName": "和值",
+                        "subGameId": "100403"
+                    }
+                ]
+            },
+            {
+                "gameId": "1005",
+                "gameName": "大小单双",
+                "gameSons": [
+                    {
+                        "baseGameId": "1005",
+                        "leftName": "前二",
+                        "rightName": "前二大小单双",
+                        "subGameId": "100501"
+                    },
+                    {
+                        "baseGameId": "1005",
+                        "leftName": "后二",
+                        "rightName": "后二大小单双",
+                        "subGameId": "100502"
+                    }
+                ]
+            },
+            {
+                "gameId": "1006",
+                "gameName": "不定位",
+                "gameSons": [
+                    {
+                        "baseGameId": "1006",
+                        "leftName": "一码不定位",
+                        "rightName": "一码不定位",
+                        "subGameId": "100601"
+                    },
+                    {
+                        "baseGameId": "1006",
+                        "leftName": "二码不定位",
+                        "rightName": "二码不定位",
+                        "subGameId": "100602"
+                    }
+                ]
+            }
+        ]
+    }
+}

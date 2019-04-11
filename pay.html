@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>网银支付</title>
+    <style>
+        center-align {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <p class="center-align" id="msg">正在跳转中...</p>
+    <form action="" method="POST" id="form">
+        <input type="hidden" name="interface_version" id="interface_version" value="">
+        <input type="hidden" name="account" id="account" value="">
+        <input type="hidden" name="notify_url" id="notify_url" value="">
+        <input type="hidden" name="order_amount" id="order_amount" value="">
+        <input type="hidden" name="order_no" id="order_no" value="">
+        <input type="hidden" name="order_time" id="order_time" value="">
+        <input type="hidden" name="product_name" id="product_name" value="">
+        <input type="hidden" name="service_type" id="service_type" value="">
+        <input type="hidden" name="pay_star_type" id="pay_star_type" value="">
+        <input type="hidden" name="turn_url" id="turn_url" value="">
+        <input type="hidden" name="sign" id="sign" value="">
+        <input type="hidden" name="sign_type" id="sign_type" value="">
+        <input type="hidden" name="client_ip" id="client_ip" value="">
+    </form>
+    <script>
+        var realSearch = decodeURIComponent(window.location.search)
+        if (realSearch !== '') {
+            var querys = realSearch.slice(1).split('&$&$&')
+            var result = {}
+            querys.forEach(function(item) {
+                var temp = item.split('$&=&$')
+                result[temp[0]] = temp[1]
+                console.log(temp[0] + ':' + temp[1])
+            })
+            var form = document.getElementById('form')
+            form.action = result.actionUrl;
+//          form.action='https://00m52.com/pay_star/bankpay/selBk.htm'
+            document.getElementById('interface_version').value = result.interfaceVersion
+            document.getElementById('account').value = result.account
+            document.getElementById('notify_url').value = result.notifyUrl
+            document.getElementById('order_amount').value = result.orderAmount
+            document.getElementById('order_no').value = result.orderNo
+            document.getElementById('order_time').value = result.orderTime
+            document.getElementById('product_name').value = result.productName
+            document.getElementById('service_type').value = result.serviceType
+            document.getElementById('sign').value = result.sign
+            document.getElementById('sign_type').value = result.signType
+            document.getElementById('client_ip').value = result.client_ip
+            document.getElementById('pay_star_type').value = result.pay_star_type
+            document.getElementById('turn_url').value = result.turn_url
+            form.submit()
+        }
+    </script>
+</body>
+
+</html>

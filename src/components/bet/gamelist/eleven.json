@@ -1,0 +1,366 @@
+{
+    "code": 0,
+    "data": {
+        "awardTime": "09:00:00",
+        "midleTime": null,
+        "optionGameList": [],
+        "shutTime": "23:00:00",
+        "standGameList": [
+            {
+                "gameId": "5001",
+                "gameName": "三码",
+                "gameSons": [
+                    {
+                        "baseGameId": "5001",
+                        "leftName": "前三直选",
+                        "rightName": "复式",
+                        "subGameId": "500101"
+                    },
+                    {
+                        "baseGameId": "5001",
+                        "leftName": "前三直选",
+                        "rightName": "单式",
+                        "subGameId": "500102"
+                    },
+                    {
+                        "baseGameId": "5001",
+                        "leftName": "前三组选",
+                        "rightName": "复式",
+                        "subGameId": "500103"
+                    },
+                    {
+                        "baseGameId": "5001",
+                        "leftName": "前三组选",
+                        "rightName": "单式",
+                        "subGameId": "500104"
+                    },
+                    {
+                        "baseGameId": "5001",
+                        "leftName": "前三组选",
+                        "rightName": "胆拖",
+                        "subGameId": "500105"
+                    },
+                    {
+                        "baseGameId": "5001",
+                        "leftName": "中三直选",
+                        "rightName": "复式",
+                        "subGameId": "500106"
+                    },
+                    {
+                        "baseGameId": "5001",
+                        "leftName": "中三直选",
+                        "rightName": "单式",
+                        "subGameId": "500107"
+                    },
+                    {
+                        "baseGameId": "5001",
+                        "leftName": "中三组选",
+                        "rightName": "复式",
+                        "subGameId": "500108"
+                    },
+                    {
+                        "baseGameId": "5001",
+                        "leftName": "中三组选",
+                        "rightName": "单式",
+                        "subGameId": "500109"
+                    },
+                    {
+                        "baseGameId": "5001",
+                        "leftName": "中三组选",
+                        "rightName": "胆拖",
+                        "subGameId": "500110"
+                    },
+                    {
+                        "baseGameId": "5001",
+                        "leftName": "后三直选",
+                        "rightName": "复式",
+                        "subGameId": "500111"
+                    },
+                    {
+                        "baseGameId": "5001",
+                        "leftName": "后三直选",
+                        "rightName": "单式",
+                        "subGameId": "500112"
+                    },
+                    {
+                        "baseGameId": "5001",
+                        "leftName": "后三组选",
+                        "rightName": "复式",
+                        "subGameId": "500113"
+                    },
+                    {
+                        "baseGameId": "5001",
+                        "leftName": "后三组选",
+                        "rightName": "单式",
+                        "subGameId": "500114"
+                    },
+                    {
+                        "baseGameId": "5001",
+                        "leftName": "后三组选",
+                        "rightName": "胆拖",
+                        "subGameId": "500115"
+                    }
+                ]
+            },
+            {
+                "gameId": "5002",
+                "gameName": "二码",
+                "gameSons": [
+                    {
+                        "baseGameId": "5002",
+                        "leftName": "前二直选",
+                        "rightName": "复式",
+                        "subGameId": "500201"
+                    },
+                    {
+                        "baseGameId": "5002",
+                        "leftName": "前二直选",
+                        "rightName": "单式",
+                        "subGameId": "500202"
+                    },
+                    {
+                        "baseGameId": "5002",
+                        "leftName": "前二组选",
+                        "rightName": "复式",
+                        "subGameId": "500203"
+                    },
+                    {
+                        "baseGameId": "5002",
+                        "leftName": "前二组选",
+                        "rightName": "单式",
+                        "subGameId": "500204"
+                    },
+                    {
+                        "baseGameId": "5002",
+                        "leftName": "前二组选",
+                        "rightName": "胆拖",
+                        "subGameId": "500205"
+                    },
+                    {
+                        "baseGameId": "5002",
+                        "leftName": "后二直选",
+                        "rightName": "复式",
+                        "subGameId": "500206"
+                    },
+                    {
+                        "baseGameId": "5002",
+                        "leftName": "后二直选",
+                        "rightName": "单式",
+                        "subGameId": "500207"
+                    },
+                    {
+                        "baseGameId": "5002",
+                        "leftName": "后二组选",
+                        "rightName": "复式",
+                        "subGameId": "500208"
+                    },
+                    {
+                        "baseGameId": "5002",
+                        "leftName": "后二组选",
+                        "rightName": "单式",
+                        "subGameId": "500209"
+                    },
+                    {
+                        "baseGameId": "5002",
+                        "leftName": "后二组选",
+                        "rightName": "胆拖",
+                        "subGameId": "500210"
+                    }
+                ]
+            },
+            {
+                "gameId": "5003",
+                "gameName": "不定位",
+                "gameSons": [
+                    {
+                        "baseGameId": "5003",
+                        "leftName": "不定位",
+                        "rightName": "前三",
+                        "subGameId": "500301"
+                    },
+                    {
+                        "baseGameId": "5003",
+                        "leftName": "不定位",
+                        "rightName": "中三",
+                        "subGameId": "500302"
+                    },
+                    {
+                        "baseGameId": "5003",
+                        "leftName": "不定位",
+                        "rightName": "后三",
+                        "subGameId": "500303"
+                    }
+                ]
+            },
+            {
+                "gameId": "5004",
+                "gameName": "定位胆",
+                "gameSons": [
+                    {
+                        "baseGameId": "5004",
+                        "leftName": "定位胆",
+                        "rightName": "定位胆",
+                        "subGameId": "500401"
+                    }
+                ]
+            },
+            {
+                "gameId": "5005",
+                "gameName": "任选复式",
+                "gameSons": [
+                    {
+                        "baseGameId": "5005",
+                        "leftName": "任选复式",
+                        "rightName": "任选一中一",
+                        "subGameId": "500501"
+                    },
+                    {
+                        "baseGameId": "5005",
+                        "leftName": "任选复式",
+                        "rightName": "任选二中二",
+                        "subGameId": "500502"
+                    },
+                    {
+                        "baseGameId": "5005",
+                        "leftName": "任选复式",
+                        "rightName": "任选三中三",
+                        "subGameId": "500503"
+                    },
+                    {
+                        "baseGameId": "5005",
+                        "leftName": "任选复式",
+                        "rightName": "任选四中四",
+                        "subGameId": "500504"
+                    },
+                    {
+                        "baseGameId": "5005",
+                        "leftName": "任选复式",
+                        "rightName": "任选五中五",
+                        "subGameId": "500505"
+                    },
+                    {
+                        "baseGameId": "5005",
+                        "leftName": "任选复式",
+                        "rightName": "任选六中五",
+                        "subGameId": "500506"
+                    },
+                    {
+                        "baseGameId": "5005",
+                        "leftName": "任选复式",
+                        "rightName": "任选七中五",
+                        "subGameId": "500507"
+                    },
+                    {
+                        "baseGameId": "5005",
+                        "leftName": "任选复式",
+                        "rightName": "任选八中五",
+                        "subGameId": "500508"
+                    }
+                ]
+            },
+            {
+                "gameId": "5006",
+                "gameName": "任选单式",
+                "gameSons": [
+                    {
+                        "baseGameId": "5006",
+                        "leftName": "任选单式",
+                        "rightName": "任选一中一",
+                        "subGameId": "500601"
+                    },
+                    {
+                        "baseGameId": "5006",
+                        "leftName": "任选单式",
+                        "rightName": "任选二中二",
+                        "subGameId": "500602"
+                    },
+                    {
+                        "baseGameId": "5006",
+                        "leftName": "任选单式",
+                        "rightName": "任选三中三",
+                        "subGameId": "500603"
+                    },
+                    {
+                        "baseGameId": "5006",
+                        "leftName": "任选单式",
+                        "rightName": "任选四中四",
+                        "subGameId": "500604"
+                    },
+                    {
+                        "baseGameId": "5006",
+                        "leftName": "任选单式",
+                        "rightName": "任选五中五",
+                        "subGameId": "500605"
+                    },
+                    {
+                        "baseGameId": "5006",
+                        "leftName": "任选单式",
+                        "rightName": "任选六中五",
+                        "subGameId": "500606"
+                    },
+                    {
+                        "baseGameId": "5006",
+                        "leftName": "任选单式",
+                        "rightName": "任选七中五",
+                        "subGameId": "500607"
+                    },
+                    {
+                        "baseGameId": "5006",
+                        "leftName": "任选单式",
+                        "rightName": "任选八中五",
+                        "subGameId": "500608"
+                    }
+                ]
+            },
+            {
+                "gameId": "5007",
+                "gameName": "任选胆拖",
+                "gameSons": [
+                    {
+                        "baseGameId": "5007",
+                        "leftName": "任选胆拖",
+                        "rightName": "任选二中二",
+                        "subGameId": "500701"
+                    },
+                    {
+                        "baseGameId": "5007",
+                        "leftName": "任选胆拖",
+                        "rightName": "任选三中三",
+                        "subGameId": "500702"
+                    },
+                    {
+                        "baseGameId": "5007",
+                        "leftName": "任选胆拖",
+                        "rightName": "任选四中四",
+                        "subGameId": "500703"
+                    },
+                    {
+                        "baseGameId": "5007",
+                        "leftName": "任选胆拖",
+                        "rightName": "任选五中五",
+                        "subGameId": "500704"
+                    },
+                    {
+                        "baseGameId": "5007",
+                        "leftName": "任选胆拖",
+                        "rightName": "任选六中五",
+                        "subGameId": "500705"
+                    },
+                    {
+                        "baseGameId": "5007",
+                        "leftName": "任选胆拖",
+                        "rightName": "任选七中五",
+                        "subGameId": "500706"
+                    },
+                    {
+                        "baseGameId": "5007",
+                        "leftName": "任选胆拖",
+                        "rightName": "任选八中五",
+                        "subGameId": "500707"
+                    }
+                ]
+            }
+        ]
+    },
+    "msg": "OK"
+}

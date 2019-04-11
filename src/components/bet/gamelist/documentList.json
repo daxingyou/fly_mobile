@@ -1,0 +1,126 @@
+{
+  "code": 0,
+  "msg": '',
+  "data": [
+    {
+      "id": "402880ef5b7ede64015b7f0b39a00002",
+      "listName": "首页文案编辑",
+      "state": "1"
+    },
+    {
+      "id": "402880ef5bf14040015bf15a21b5001b",
+      "listName": "线上充值文案管理",
+      "state": "1"
+    },
+    {
+      "id": "402880ef5bf14040015bf15a527d001c",
+      "listName": "轮播文案管理",
+      "state": "1"
+    },
+    {
+      "id": "402880ef5bf14040015bf15aaa0a001d",
+      "listName": "活动优惠文案管理",
+      "state": "1"
+    },
+    {
+      "id": "402880ef5bf14040015bf15b2b98001e",
+      "listName": "浮动图管理",
+      "state": "1"
+    },
+    {
+      "id": "402880ef5bf14040015bf16d0d6c0021",
+      "listName": "关于我们",
+      "state": "1"
+    },
+    {
+      "id": "402880ef5bf14040015bf16d2c310022",
+      "listName": "充值帮助",
+      "state": "1"
+    },
+    {
+      "id": "402880ef5bf14040015bf16d55610023",
+      "listName": "提现帮助",
+      "state": "1"
+    },
+    {
+      "id": "402880ef5bf14040015bf16d9d990024",
+      "listName": "联络我们",
+      "state": "1"
+    },
+    {
+      "id": "402880ef5bf14040015bf16dd2b40025",
+      "listName": "常见问题",
+      "state": "1"
+    },
+    {
+      "id": "402880ef5bf14040015bf180a4360029",
+      "listName": "T1",
+      "state": "1"
+    },
+    {
+      "id": "402880ef5bf14040015bf180bbe9002a",
+      "listName": "T2",
+      "state": "1"
+    },
+    {
+      "id": "402880ef5bf14040015bf180e055002b",
+      "listName": "T3",
+      "state": "1"
+    },
+    {
+      "id": "402880ef5bf14040015bf182364d0030",
+      "listName": "说明内容",
+      "state": "1"
+    },
+    {
+      "id": "402880ef5bf14040015bf18259cf0031",
+      "listName": "一般充值页面说明",
+      "state": "1"
+    },
+    {
+      "id": "402880ef5bf14040015bf18277ee0032",
+      "listName": "快速充值页面说明",
+      "state": "1"
+    },
+    {
+      "id": "402880ef5bf14040015bf18295a80033",
+      "listName": "线上支付连结说明",
+      "state": "1"
+    },
+    {
+      "id": "402880ef5bf14040015bf182b0520034",
+      "listName": "优惠申请",
+      "state": "1"
+    },
+    {
+      "id": "402880ef5bf14040015bf182d01b0035",
+      "listName": "线上提现页面说明",
+      "state": "1"
+    },
+    {
+      "id": "402880ef5bf14040015bf182f3b60036",
+      "listName": "充值用戶须知",
+      "state": "1"
+    },
+    {
+      "id": "402880ef5bf14040015bf183d18d0037",
+      "listName": "左侧 - 多图",
+      "state": "1"
+    },
+    {
+      "id": "402880ef5bf14040015bf183f57b0038",
+      "listName": "右侧 - 多图",
+      "state": "1"
+    },
+    {
+      "id": "index",
+      "listName": "文章目录",
+      "state": "1"
+    },
+    {
+      "id": "root",
+      "listName": '',
+      "state": "1"
+    }
+  ]
+}

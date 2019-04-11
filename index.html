@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui">
+  
+  <base target="_blank" />
+  <title>全民代理</title>
+  <meta http-equiv="pragma" content="no-cache">
+  <meta http-equiv="cache-control" content="no-cache">
+  <meta http-equiv="expires" content="0">
+  <!-- 优先使用 IE 最新版本和 Chrome -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <!--删除iphone手机默认的工具栏和菜单栏-->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <!--uc浏览器强制全屏-->
+
+  <!--<meta name="full-screen" content="yes">-->
+  <!-- uc强制竖屏 -->
+  <meta name="screen-orientation" content="portrait">
+  <!--uc应用模式 -->
+  <!--<meta name="browsermode" content="application">-->
+  <!--qq浏览器强制全屏-->
+  <meta name="x5-fullscreen" content="true">
+  <!-- qq强制竖屏 -->
+  <meta name="x5-orientation" content="portrait">
+  <!--针对手持设备优化，主要是针对一些老的不识别viewport的浏览器，比如黑莓-->
+  <meta name="HandheldFriendly" content="true">
+  <!--微软的老式浏览器-->
+  <meta name="MobileOptimized" content="320">
+  <!--windows phone 点击无高光-->
+  <meta name="msapplication-tap-highlight" content="no">
+  <!--<script src="//unpkg.com/vue-ydui/dist/ydui.flexible.js"></script>-->
+  <!--<script src="//unpkg.com/vue-ydui/dist/ydui.rem.js"></script>-->
+
+  <meta name="apple-mobile-web-app-capable" content="yes" /><!-- home screen app 全屏 -->
+<meta name="apple-mobile-web-app-status-bar-style" content="black" /><!-- 状态栏 -->
+<!-- 还需要额外设置不同尺寸的启动图，默认不设置的话会自动去寻找根目录下的apple-touch-icon-precomposed.png -->
+<!-- home screen app iPhone icon -->
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="startup/apple-touch-icon-57x57-precomposed.png" />
+<!-- home screen app iPad icon -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="startup/apple-touch-icon-72x72-precomposed.png" />
+<!-- home screen app iPhone Retinas icon -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="startup/apple-touch-icon-114x114-precomposed.png" />
+<!-- home screen app iPad Retinas icon -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="startup/apple-touch-icon-144x144-precomposed.png" />
+<!-- iPhone5启动图 -->
+<link rel="apple-touch-startup-image" href="startup/startup5.png" media="(device-height:568px)">
+<!-- iPhone4启动图 -->
+<link rel="apple-touch-startup-image" size="640x920" href="startup/startup.png" media="(device-height:480px)">
+
+<link rel="apple-touch-icon-precomposed" href="startup/apple-touch-icon-114x114-precomposed.png" />
+
+<link rel="stylesheet" href="/static/font/css/font-awesome.min.css">
+<!-- <link rel="icon" href="/static/img/favicon.ico" type="image/x-icon"> -->
+<!-- <link rel="shortcut icon" href="/static/img/favicon.ico" type="image/x-icon"> -->
+<script src="https://cdn.jsdelivr.net/npm/lodash@4.13.1/lodash.min.js"></script>
+<script src="/static/js/md5.js"></script>
+<script src="/static/js/base64.js"></script>
+<script src="/static/js/qrcode.min.js"></script>
+<script src="/static/js/common.js"></script>
+<script src="/static/js/moment.js"></script>
+<script src="/static/js/websocket.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/webrtc-adapter/6.0.3/adapter.min.js" ></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js" ></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.blockUI/2.70/jquery.blockUI.min.js" ></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.2/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.1.0/bootbox.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/spin.js/2.3.2/spin.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.3/toastr.min.js"></script>
+<script type="text/javascript" src="/static/js/janus.js"></script>
+<!--<script type="text/javascript" src="/static/js/audio.min.js"></script>-->
+
+  <!-- <script src="/static/js/rotate.js"></script>	 -->
+	<!-- <script src="https://cdn.bootcss.com/reconnecting-websocket/1.0.0/reconnecting-websocket.min.js"></script> -->
+	<!--<script type="text/javascript" src="iscroll.js"></script>-->
+	<!-- <script src="https://cdn.bootcss.com/babel-polyfill/6.23.0/polyfill.min.js"></script> -->
+		<style>
+			html,
+			body {
+				/*font-size: 16px;*/
+				margin: 0;
+				padding: 0;
+				width: 100%;
+				height: 100%;
+				background: #ffffff !important;
+				/*overflow: scroll; 
+     -webkit-overflow-scrolling: touch;*/
+			}
+			
+			@keyframes blink {
+				0% {
+					opacity: 1;
+				}
+				50% {
+					opacity: 0;
+				}
+				100% {
+					opacity: 1;
+				}
+			}
+			
+			#app {
+				width: 100%;
+				height: 100%;
+			}
+			
+			.yd-navbar {
+				width: 100%;
+        /* height: 45px !important; */
+				position: fixed !important;
+				top: 0;
+				left: 0;
+				z-index: 100;
+				/* background: #011935 !important; */
+        background: linear-gradient(135deg,rgba(19,46,123,1) 0,rgba(0,201,202,1) 100%) !important;
+			}
+			.yd-navbar-item{
+				color: #FFFFFF !important;
+			}
+			.yd-navbar-center-title{
+				color: #FFFFFF !important;
+			}
+			/* 兼容低版 */
+			
+			.yd-navbar-item {
+				width: 25%;
+			}
+      .yd-back-icon:before, .yd-next-icon:before {
+        font-size: 0.4rem !important;
+      }
+		</style>
+	</head>
+
+
+	<body>
+		<div id="app">
+			<!--打开手机打开撒娇的撒娇的-->
+		</div>
+		<!-- built files will be auto injected -->
+	</body>
+
+
+
+<script>
+	(function() {
+    var isPageHide = false;
+    window.addEventListener('pageshow', function() {
+      if (isPageHide) {
+        window.location.reload();
+      }
+    });
+    window.addEventListener('pagehide', function() {
+      isPageHide = true;
+    });
+  })();
+//	var browser = {
+//	versions:function(){ 
+//	var u = navigator.userAgent, app = navigator.appVersion; 
+//	return {//移动终端浏览器版本信息 
+//		trident: u.indexOf("Trident") > -1, //IE内核
+//		presto: u.indexOf("Presto") > -1, //opera内核
+//		webKit: u.indexOf("AppleWebKit") > -1, //苹果、谷歌内核
+//		gecko: u.indexOf("Gecko") > -1 && u.indexOf("KHTML") == -1, //火狐内核
+//		mobile: !!u.match(/AppleWebKit.*Mobile.*/), //是否为移动终端
+//		ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端
+//		android: u.indexOf("Android") > -1 || u.indexOf("Linux") > -1, //android终端或者uc浏览器
+//		iPhone: u.indexOf("iPhone") > -1 , //是否为iPhone或者QQHD浏览器
+//		iPad: u.indexOf("iPad") > -1, //是否iPad
+//		webApp: u.indexOf("Safari") == -1&&u.indexOf("Chrome") == -1&&u.indexOf("Mozilla") == -1//是否web应该程序，没有头部与底部
+//		};
+//	}(),
+//	language:(navigator.browserLanguage || navigator.language).toLowerCase()
+//} 
+//	alert(browser.versions.webApp);
+window.addEventListener("onorientationchange" in window ? "orientationchange" : "resize", hengshuping, false);
+
+
+var lastTouchEnd = 0;
+document.documentElement.addEventListener('touchend', function (event) {
+    var now = Date.now();
+    if (now - lastTouchEnd <= 300) {
+      event.preventDefault();
+    }
+    lastTouchEnd = now;
+}, false);
+
+function hengshuping() {
+    if (window.orientation == 90 || window.orientation == -90) {
+      //横屏
+    } else {
+      //竖屏
+    }
+}
+
+window.addEventListener('DOMContentLoaded', function() {
+    var page = document.getElementById('page'),
+        nav = window.navigator,
+        ua = nav.userAgent,
+        isFullScreen = nav.standalone;
+    if (ua.indexOf('Android') !== -1) {
+        // 56对应的是Android Browser导航栏的高度
+        page.style.height = window.innerHeight + 56 + 'px';
+    } else if (/iPhone|iPod|iPad/.test(ua)) {
+        // 60对应的是Safari导航栏的高度
+        page.style.height = window.innerHeight + (isFullScreen ? 0 : 60) + 'px'
+    }
+    setTimeout(scrollTo, 0, 0, 1);
+}, false);
+
+</script>
+
+<!-- PT三方游戏进入 -->
+<!--<script type="text/javascript" src="https://login.silvereagle88.com/jswrapper/integration.js.php?casino=silvereagle88"></script>-->
+
+</html>
